@@ -43,9 +43,5 @@ plt.plot(hist)
 plt.xlim([0,256])     # Limit of x axis
 plt.show()
 
-
-# Masking 
-
-
 cv.waitKey(0)
 cv.destroyAllWindows()
