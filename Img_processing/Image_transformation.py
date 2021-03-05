@@ -8,7 +8,7 @@ cv.imshow('Resized',resize)
 # resize1=cv.resize(img,(300,300),interpolation=cv.INTER_LINEAR)
 # cv.imshow('image',resize1)
 
-##Image translation
+#Image translation
 Tmatrix=np.float32([[1,0,40],[0,1,10]])
 dimension=(resize.shape[1],resize.shape[0])
 Imagetrans=cv.warpAffine(resize,Tmatrix,dimension)
